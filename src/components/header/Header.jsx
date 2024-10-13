@@ -4,25 +4,19 @@ import Link from "next/link"
 import Image from 'next/image'
 import Logo from '@/img/logo.png'
 const Header = () => {
-   const [header, setHeader] = useState(false);
-
-   const scrollHeader = () =>{
-      if(window.scrollY>=200){
-         setHeader(true)
-      }else{
-         setHeader(false)
-      }
-   }
+   const [header, setHeader] = useState(0);
 
    useEffect(()=>{
-        window.addEventListener('scroll', scrollHeader);
-        return ()=>{
-         window.removeEventListener('scroll', scrollHeader);
-        }
-   },[header])
-   
+      const upDatePosition = ()=>{
+         setHeader(window.pageYOffset)
+      }
+      window.addEventListener('scroll', upDatePosition)
+      upDatePosition()
+
+      return ()=>{window.removeEventListener('scroll', upDatePosition)}
+   },[])
   return (
-    <header className={`w-full min-h-14 py-2 fixed top-0 left-0 z-50 duration-150 ease-linear ${header ? " bg-white shadow-md": "bg-gray-700 bg-opacity-20"}`}>
+    <header className={`w-full min-h-14 py-2 fixed top-0 left-0 z-50 ${header? 'bg-white shadow-md': 'bg-gray-700 bg-opacity-20'} duration-150 ease-linear`}>
         <nav className="w-full h-full px-10 flex items-center justify-between">
             <Link href="/">
                 <Image className="max-w-36 h-auto" priority={true} src={Logo} alt="Enriched Coverages" />
