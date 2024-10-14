@@ -14,6 +14,9 @@ module.exports = {
       backgroundImage: {
         'hero-img': "url('../img/hero.jpg')",
         'medicare-img': "url('../img/about-bg.jpg')",
+      },
+      gridTemplateColumns: {
+        'medicareGird': '1fr 1.5fr;',
       }
     },
   },
