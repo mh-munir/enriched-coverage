@@ -76,46 +76,60 @@ export {ServiceContents};
 
 const clientsLogo = [
     {
-        logo:Logo1 
+        logo:Logo1,
+        alt: "Our Client"
     },
     {
-        logo:Logo2
+        logo:Logo2,
+        alt: "Our Client"
     },
     {
-        logo:Logo3
+        logo:Logo3,
+        alt: "Our Client"
     },
     {
-        logo:Logo4
+        logo:Logo4,
+        alt: "Our Client"
     },
     {
-        logo:Logo5
+        logo:Logo5,
+        alt: "Our Client"
     },
     {
-        logo:Logo6
+        logo:Logo6,
+        alt: "Our Client"
     },
     {
-        logo:Logo7
+        logo:Logo7,
+        alt: "Our Client"
     },
     {
-        logo:Logo8
+        logo:Logo8,
+        alt: "Our Client"
     },
     {
-        logo:Logo9
+        logo:Logo9,
+        alt: "Our Client"
     },
     {
-        logo:Logo10 
+        logo:Logo10,
+        alt: "Our Client"
     },
     {
-        logo:Logo11
+        logo:Logo11,
+        alt: "Our Client"
     },
     {
-        logo:Logo12
+        logo:Logo12,
+        alt: "Our Client"
     },
     {
-        logo:Logo13 
+        logo:Logo13,
+        alt: "Our Client"
     },
     {
-        logo:Logo14
+        logo:Logo14,
+        alt: "Our Client"
     },
 ]
 

@@ -116,13 +116,15 @@ export default function Home() {
 
       <section className="bg-zinc-200 py-24">
         <div className="max-w-full mx-auto">
-          <div className="text-center mb-20">
+          <div className="text-center">
             <h2
               className={`text-3xl max-w-4xl mx-auto text-center font-normal text-gray-900 mb-10 leading-[1.2] ${playfair.className}`}
             >
               Offering a wide range of carriers
             </h2>
-            <OurSlider/>
+           <div>
+           <OurSlider/>
+           </div>
           </div>
         </div>
       </section>

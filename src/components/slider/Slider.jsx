@@ -21,10 +21,10 @@ export default function SimpleSlider() {
     return (
         <div className="slider-container">
         <Slider {...settings}>
-            {clientsLogo.map((logo, index)=>{
+            {clientsLogo.map((Clientlogo, index)=>{
                 return (
-                    <div className="w-28">
-                        <Image className="w-28 h-auto" src={logo.logo}/>
+                    <div key={index} className="w-28">
+                        <Image src={Clientlogo.logo} alt={Clientlogo.alt}/>
                     </div>
                 )
             })}
