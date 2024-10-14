@@ -5,7 +5,7 @@ import { MediCareContents } from "@/demodata/DemoData";
 import { GoArrowRight } from "react-icons/go";
 import Service from "@/components/services/Service";
 import { ServiceContents } from "@/demodata/DemoData";
-import Slider from "@/components/slider/Slider";
+import OurSlider from "@/components/slider/Slider";
 
 
 const playfair = Playfair_Display({
@@ -115,14 +115,14 @@ export default function Home() {
       </section>
 
       <section className="bg-zinc-200 py-24">
-        <div className="max-w-7xl mx-auto px-5">
+        <div className="max-w-full mx-auto">
           <div className="text-center mb-20">
             <h2
               className={`text-3xl max-w-4xl mx-auto text-center font-normal text-gray-900 mb-10 leading-[1.2] ${playfair.className}`}
             >
               Offering a wide range of carriers
             </h2>
-            <Slider/>
+            <OurSlider/>
           </div>
         </div>
       </section>

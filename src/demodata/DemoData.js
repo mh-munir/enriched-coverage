@@ -6,6 +6,20 @@ import ServiceImg2 from '@/img/services-discussion.jpg';
 import ServiceImg3 from '@/img/services-enrollment.jpg';
 import ServiceImg4 from '@/img/services-insurance-review.jpg';
 import ServiceImg5 from '@/img/services-renewal.jpg';
+import Logo1 from '@/img/logo-1-aetna.svg';
+import Logo2 from '@/img/logo-1-aetna.svg';
+import Logo3 from '@/img/logo-3-anthem.svg';
+import Logo4 from '@/img/logo-1-aetna.svg';
+import Logo5 from '@/img/logo-5-cigna.svg';
+import Logo6 from '@/img/logo-1-aetna.svg';
+import Logo7 from '@/img/logo-1-aetna.svg';
+import Logo8 from '@/img/logo-8-nextblue.svg';
+import Logo9 from '@/img/logo-1-aetna.svg';
+import Logo10 from '@/img/logo-10-ucare.svg';
+import Logo11 from '@/img/logo-11-united.svg';
+import Logo12 from '@/img/logo-12-wellcare.svg';
+import Logo13 from '@/img/2013-SHP-Stacked-Logo-287-Blue-RGB.webp';
+import Logo14 from '@/img/mbrx-logo.webp';
 
 const MediCareContents =[
     {
@@ -58,3 +72,51 @@ const ServiceContents =[
 ]
 
 export {ServiceContents};
+
+
+const clientsLogo = [
+    {
+        logo:Logo1 
+    },
+    {
+        logo:Logo2
+    },
+    {
+        logo:Logo3
+    },
+    {
+        logo:Logo4
+    },
+    {
+        logo:Logo5
+    },
+    {
+        logo:Logo6
+    },
+    {
+        logo:Logo7
+    },
+    {
+        logo:Logo8
+    },
+    {
+        logo:Logo9
+    },
+    {
+        logo:Logo10 
+    },
+    {
+        logo:Logo11
+    },
+    {
+        logo:Logo12
+    },
+    {
+        logo:Logo13 
+    },
+    {
+        logo:Logo14
+    },
+]
+
+export {clientsLogo};
