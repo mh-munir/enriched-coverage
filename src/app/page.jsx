@@ -5,6 +5,8 @@ import { MediCareContents } from "@/demodata/DemoData";
 import { GoArrowRight } from "react-icons/go";
 import Service from "@/components/services/Service";
 import { ServiceContents } from "@/demodata/DemoData";
+import Slider from "@/components/slider/Slider";
+
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -75,12 +77,10 @@ export default function Home() {
               );
             })}
           </div>
-          <div></div>
-          <div></div>
         </div>
       </section>
 
-      <section className="bg-zinc-100 py-24">
+      <section className="bg-white py-24">
         <div className="max-w-7xl mx-auto px-5">
           <div className="text-center mb-20">
             <h2
@@ -122,9 +122,8 @@ export default function Home() {
             >
               Offering a wide range of carriers
             </h2>
+            <Slider/>
           </div>
-
-          <div className=""></div>
         </div>
       </section>
     </main>
