@@ -13,8 +13,8 @@ export default function SimpleSlider() {
         slidesToShow: 7,
         slidesToScroll: 1,
         autoplay: true,
-        speed: 2000,
-        autoplaySpeed: 2000,
+        speed: 3000,
+        autoplaySpeed: 0,
         cssEase: "linear",
         arrows : false,
       };
@@ -23,8 +23,8 @@ export default function SimpleSlider() {
         <Slider {...settings}>
             {clientsLogo.map((Clientlogo, index)=>{
                 return (
-                    <div key={index} className="w-28">
-                        <Image src={Clientlogo.logo} alt={Clientlogo.alt}/>
+                    <div key={index}>
+                        <Image className="w-auto h-[40px]" src={Clientlogo.logo} alt={Clientlogo.alt}/>
                     </div>
                 )
             })}
